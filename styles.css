@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f4f4f4;
+    font-size: 12px;
+}
+
+.centered-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scaled-icon {
+    width: 30px; /* Set the desired width for the images */
+    height: auto; /* Let the height scale based on the aspect ratio */
+    object-fit: contain; /* Maintain aspect ratio and fit within container */
+    margin: 0 5px; /* Use percentage for consistent spacing */
+}
+
+.project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.project-button:hover {
+    background-color: #0056b3;
+}
+
+
