@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 30px;
+    padding: 20px 30px;
     background-color: #333;
     color: #fff;
     margin: 10px auto;
@@ -58,8 +58,6 @@ footer {
     align-items: center;
 }
 
-
-/* Add this to your existing CSS file */
 nav {
     margin-top: 0px;
 }
@@ -73,7 +71,7 @@ nav {
 .menu-li {
     color: #fff;
     display: inline-block;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     position: relative;
 }
 
@@ -92,10 +90,10 @@ a {
     display: none;
     position: absolute;
     top: 100%;
-    right: 0;
+    left: -45px;
     background-color: #333; 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     padding: 0 5px;
+    text-align: center;
 }
 
 .dropdown-content li {
@@ -106,22 +104,75 @@ a {
     display: block;
 }
 
+.experiences {
+    padding: 0px;
+}
+
+.experiences h3 {
+    font-size: 22px;
+}
+
 .experience {
     position: relative;
     cursor: pointer;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    padding: 10px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    display: flex;
+    transition: background-color 0.3s;
+    flex-direction: column;
 }
 
-.experience i {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
-.details {
+.experience-header h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.experience-header p{
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 16px
+}
+
+.experience:hover {
+    background-color: #f5f5f5;
+}
+
+.experience .icon {
+    transition: transform 0.3s;
+}
+
+.experience.active .icon {
+    transform: rotate(180deg);
+}
+
+.experience .details {
     display: none;
-    margin-top: 10px;
 }
+
+.experience.active .details {
+    display: block;
+    padding-left: 20px;
+    font-size: 14px
+}
+
+.seemless-two-column {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+
