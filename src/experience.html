@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Andrew Yang - Personal Website</title>
+</head>
+<body>
+
+
+  <header>
+    <a href="about.html" id="logo" class="header-link">Andrew Yang</a>
+    <nav>
+      <ul>
+          <li class="dropdown menu-li">
+              <a href="#" class="header-link">
+                <img src="../assets/icons/hamburger.png" alt="Menu Icon" class="header-icon">
+              </a>
+              <ul class="dropdown-content menu-ul">
+                <li><a href="experience.html" class="header-link menu-li">Experience</a></li>
+                <li><a href="research.html" class="header-link menu-li">Research</a></li>
+                <li><a href="projects.html" class="header-link menu-li">Projects</a></li>
+              </ul>
+          </li>
+      </ul>
+  </nav>
+  </header>
+
+
+    <main>
+      <section class="experiences">
+        <h2>Professional Experience</h2>
+        <div class="experience" onclick="toggleExperience(this)">
+            <h3>Job Title 1 - Company Name 1</h3>
+            <div class="details">
+                <!-- Detailed information goes here -->
+                <p>Date: Month Year</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+        </div>
+
+        <div class="experience" onclick="toggleExperience(this)">
+            <h3>Job Title 2 - Company Name 2</h3>
+            <div class="details">
+                <!-- Detailed information goes here -->
+                <p>Date: Month Year</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+        </div>
+        <!-- Add more experiences as needed -->
+      </section>
+    </main>
+
+    <footer>
+      <div class="centered-image-container">
+        <a href="https://github.com/ajy25" target="_blank">
+          <img src="../assets/icons/github_icon.png" alt="GitHub Icon" class="footer-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/ajy25/" target="_blank">
+          <img src="../assets/icons/linkedin_icon.png" alt="LinkedIn Icon" class="footer-icon">
+        </a>
+      </div>
+      <p>&copy; 2023 Andrew Yang. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
+
+
