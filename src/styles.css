@@ -63,16 +63,16 @@ footer {
 }
 
 .footer-icon {
-    width: 30px; /* Set the desired width for the images */
-    height: auto; /* Let the height scale based on the aspect ratio */
-    object-fit: contain; /* Maintain aspect ratio and fit within container */
-    margin: 0 10px; /* Use percentage for consistent spacing */
+    width: 30px; 
+    height: auto; 
+    object-fit: contain; 
+    margin: 0 10px; 
 }
 
 .header-icon {
-    width: 30px; /* Set the desired width for the images */
-    height: auto; /* Let the height scale based on the aspect ratio */
-    object-fit: contain; /* Maintain aspect ratio and fit within container */
+    width: 30px; 
+    height: auto; 
+    object-fit: contain; 
     align-items: center;
 }
 
