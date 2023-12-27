@@ -3,7 +3,22 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+    color: #000;
+}
+
+body h3 {
+    border-bottom: solid 1px #e1e1e1;
+    margin-bottom: 0px;
+    color: #00214d;
+}
+
+body section {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+body p {
+    margin-top: 10px;
 }
 
 header {
@@ -11,11 +26,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
-    background-color: #333;
+    padding: 10px 30px;
+    background-color: #00214d;
     color: #fff;
-    margin: 10px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0px auto;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 #logo {
@@ -25,10 +40,13 @@ header {
 
 main {
     max-width: 800px;
-    margin: 10px auto;
-    padding: 20px 30px;
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 footer {
@@ -82,7 +100,7 @@ nav {
 }
 
 a {
-    color: #333;
+    color: #000;
 }
 
 .dropdown-content {
@@ -90,7 +108,7 @@ a {
     position: absolute;
     top: 100%;
     left: -45px;
-    background-color: #333; 
+    background-color: #00214d;
     padding: 0 5px;
     text-align: center;
 }
@@ -107,16 +125,16 @@ a {
     padding: 0px;
 }
 
-.experiences h3 {
+/* .experiences h3 {
    text-decoration: underline;
-}
+} */
 
 .experience {
     position: relative;
     cursor: pointer;
     padding: 0px 15px;
-    margin-bottom: 20px;
-    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     display: flex;
     transition: background-color 0.3s;
     flex-direction: column;
@@ -128,6 +146,12 @@ a {
     align-items: center;
     margin-top: 3px;
     margin-bottom: 3px;
+}
+
+.experience-header h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
 }
 
 .experience-header h4{
@@ -172,6 +196,7 @@ a {
     justify-content: space-between;
     background-color: #fff;
     border-radius: 10px;
+    margin-top: 5px;
 }
 
 

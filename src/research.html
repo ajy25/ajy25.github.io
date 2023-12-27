@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Andrew Yang - Personal Website</title>
+</head>
+<body>
+
+
+  <header>
+    <a href="home.html" id="logo" class="header-link">Andrew Yang</a>
+    <nav>
+      <ul>
+          <li class="dropdown menu-li">
+              <a href="#" class="header-link">
+                <img src="../assets/icons/hamburger.png" alt="Menu Icon" class="header-icon">
+              </a>
+              <ul class="dropdown-content menu-ul">
+                <li><a href="experience.html" class="header-link menu-li">Experience</a></li>
+                <li><a href="research.html" class="header-link menu-li">Research</a></li>
+                <li><a href="projects.html" class="header-link menu-li">Projects</a></li>
+              </ul>
+          </li>
+      </ul>
+  </nav>
+  </header>
+
+
+  <main>
+    <section class="experiences">
+        <h3>Publications</h3>
+        <p>None at the moment, but some hopefully coming soon!</p>
+    </section>  
+
+    <section class="experiences">
+        <h3>Posters</h3>
+        <div class="experience" onclick="toggleExperience(this)">
+            <div class="experience-header">
+              <div>
+                <p>
+                  <b>Andrew Yang</b>, Gaotian Zhang, Erik Andersen. An exploration of annotated transposon sequences 
+                  in <em>C. elegans</em>. <br>
+                </p>
+              </div>
+              <img class="icon" src="../assets/icons/expand_arrow.png" 
+              alt="Expand Arrow Icon" style="width: auto; height: 15px">
+            </div>
+            <div class="details">
+              <p><b>Links:</b> <a href="https://drive.google.com/file/d/1k4p4poDJ7rSP9K37ZGs3f_pM9SmA7SXv/view?usp=sharing" 
+                target="_blank">Poster</a>, <a href="https://github.com/AndersenLab/many_multiple_align" 
+                target="_blank">many_multiple_align (Software)</a>, <a href="https://github.com/AndersenLab/nema_blast" 
+                target="_blank">nema_blast (Software)</a> </p>
+              <p><b>Overview:</b> 
+                Transposable elements (TEs), or transposons, are mobile DNA segments that can move within the genome, 
+                influencing genomic variation and evolution. These elements belong to families with similar 
+                characteristics, contributing to phenotypic changes when they insert into coding or regulatory 
+                regions. To study natural variation in TEs across <em>C. elegans</em> strains, RNA-seq data is 
+                quantified by matching mRNA transcripts with a reference list of annotated transposon sequences. 
+                Existing online databases like WormBase and Dfam provide information on <em>C. elegans</em> TE DNA and mRNA 
+                sequences, aiding in this quantification process. The study aims to compare three lists of TE sequences, 
+                determine the best reference for quantification, and demonstrate methods for analyzing the resulting data.
+              </p>
+              <p><b>Acknowledgements:</b> Research was supported by the NSF Quantitative Biology REU Site at 
+                Northwestern (DMS-2150134); Northwestern Research Training Grant in Quantitative Biological 
+                Modeling, (NSF DMS-1547394); NSF-Simons Center for Quantitative Biology 
+                (Simons Foundation/SFARI 597491-RWC and NSF DMS-1764421). </p>
+            </div>
+          </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="centered-image-container">
+      <a href="https://github.com/ajy25" target="_blank">
+        <img src="../assets/icons/github_icon.png" alt="GitHub Icon" class="footer-icon">
+      </a>
+      <a href="https://www.linkedin.com/in/ajy25/" target="_blank">
+        <img src="../assets/icons/linkedin_icon.png" alt="LinkedIn Icon" class="footer-icon">
+      </a>
+    </div>
+    <p>&copy; 2023 Andrew Yang. All Rights Reserved.</p>
+  </footer>
+
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>
+
+
