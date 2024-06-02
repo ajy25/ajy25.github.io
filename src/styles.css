@@ -152,6 +152,18 @@ a {
     margin-bottom: 3px;
 }
 
+.experience-header > div {
+    margin-right: 50px; /* Adjust this value to increase or decrease the space between divs */
+}
+
+.experience-header > div:first-child {
+    margin-left: 0; /* Remove the left margin for the first div */
+}
+
+.experience-header > div:last-child {
+    margin-right: 0; /* Remove the right margin for the last div */
+}
+
 .experience-header h4{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -162,6 +174,12 @@ a {
     margin-top: 0;
     margin-bottom: 0px;
     font-size: 16px
+}
+
+.smaller-text-experience-header {
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 15px;
 }
 
 .experience:hover {
